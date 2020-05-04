@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html'
 })
 export class AppComponent {
-}
+  clicExercice2(event: Event): void {
+    console.log('clic');
+  }
+  }

@@ -5,11 +5,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './exercice1.component.html',
   styleUrls: ['./exercice1.component.css']
 })
-export class Exercice1Component implements OnInit {
+export class Exercice1Component {
+  text: String = 'date';
 
-  constructor() { }
-
-  ngOnInit(): void {
+  color = 'blue';
+  changeColor(color: string): void {
+    this.color = color ;
   }
 
+  texte : String = "Bonjour mon petit correcteur ! :) ";
 }
